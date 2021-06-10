@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_698b947b2f4f4751a540fee8a4c908c2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_698b947b2f4f4751a540fee8a4c908c2" ></div>
+        
+</body>
+<script>    
+    
+            var map_698b947b2f4f4751a540fee8a4c908c2 = L.map(
+                "map_698b947b2f4f4751a540fee8a4c908c2",
+                {
+                    center: [13.0, 80.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_099eec129d1b482797df8f693ff7709e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_698b947b2f4f4751a540fee8a4c908c2);
+        
+    
+            var feature_group_c81ad9a021744202945091f1efdadc13 = L.featureGroup(
+                {}
+            ).addTo(map_698b947b2f4f4751a540fee8a4c908c2);
+        
+    
+            var circle_marker_b1885d907d63431fa77eecceebbb25f1 = L.circleMarker(
+                [13.05765000314342, 80.25561003957671],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_b865d5492ab5469a9fab80493e1ccf89 = L.popup({"maxWidth": 940});
+
+        
+            var html_9bb1356bd2d34719a63ae88a2d7b86ca = $(`<div id="html_9bb1356bd2d34719a63ae88a2d7b86ca" style="width: 100.0%; height: 100.0%;">Name: Apollo Hospital	  ||	Address: NO. 21, Greams Lane, Chennai - 600 006	||	Phone Number: +044-28290200||	Hospital Type: Private</div>`)[0];
+            popup_b865d5492ab5469a9fab80493e1ccf89.setContent(html_9bb1356bd2d34719a63ae88a2d7b86ca);
+        
+
+        circle_marker_b1885d907d63431fa77eecceebbb25f1.bindPopup(popup_b865d5492ab5469a9fab80493e1ccf89)
+        ;
+
+        
+    
+    
+            var circle_marker_801ccbc59b9d4041bdef888cc758a576 = L.circleMarker(
+                [13.07453999904662, 80.22730996842836],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_a3d3a71572fb4df289442edb1d89a9b3 = L.popup({"maxWidth": 1400});
+
+        
+            var html_70c740a586ff4512a04ae6df8b373c9d = $(`<div id="html_70c740a586ff4512a04ae6df8b373c9d" style="width: 100.0%; height: 100.0%;">Name: Billroth Hospital	  ||	Address: No. 43, Lakshmi Talkies Road, Shenoy Nagar, Chennai - 600 030	||	Phone Number: +044-26641777||	Hospital Type: Private</div>`)[0];
+            popup_a3d3a71572fb4df289442edb1d89a9b3.setContent(html_70c740a586ff4512a04ae6df8b373c9d);
+        
+
+        circle_marker_801ccbc59b9d4041bdef888cc758a576.bindPopup(popup_a3d3a71572fb4df289442edb1d89a9b3)
+        ;
+
+        
+    
+    
+            var circle_marker_694a7659bf0448309a335b95c9656a67 = L.circleMarker(
+                [13.04294998899239, 80.27003001434264],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_e3e5e614b35445bda47be45598244d39 = L.popup({"maxWidth": 1360});
+
+        
+            var html_6bd0d6575f0c4ce89f42c02e8a83822c = $(`<div id="html_6bd0d6575f0c4ce89f42c02e8a83822c" style="width: 100.0%; height: 100.0%;">Name: C.S.I. Kalyani Hospital	  ||	Address: NO. 15, Dr. Radhakrishan Salai, Mylapore, Chennai - 600 004	||	Phone Number: +044-28476433||	Hospital Type: Private</div>`)[0];
+            popup_e3e5e614b35445bda47be45598244d39.setContent(html_6bd0d6575f0c4ce89f42c02e8a83822c);
+        
+
+        circle_marker_694a7659bf0448309a335b95c9656a67.bindPopup(popup_e3e5e614b35445bda47be45598244d39)
+        ;
+
+        
+    
+    
+            var circle_marker_53eb5cb428aa4ae3b430bc4b9bc90fb3 = L.circleMarker(
+                [13.07147111244084, 80.24038073369735],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_fa6c79b2c1144f029cc651b2a40f3ba1 = L.popup({"maxWidth": 1260});
+
+        
+            var html_3420b811e6bb41df9e4ea57cf860885d = $(`<div id="html_3420b811e6bb41df9e4ea57cf860885d" style="width: 100.0%; height: 100.0%;">Name: Dr. Mehtas Hospital	  ||	Address: No. 2, McNichols Road, 3rd Lane, Chetpet, Chennai - 31	||	Phone Number: +044-42271001||	Hospital Type: Private</div>`)[0];
+            popup_fa6c79b2c1144f029cc651b2a40f3ba1.setContent(html_3420b811e6bb41df9e4ea57cf860885d);
+        
+
+        circle_marker_53eb5cb428aa4ae3b430bc4b9bc90fb3.bindPopup(popup_fa6c79b2c1144f029cc651b2a40f3ba1)
+        ;
+
+        
+    
+    
+            var circle_marker_5c97a76f31f54af5ae01713b7a641fab = L.circleMarker(
+                [13.00913998997264, 80.26153998461626],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_c4564c18c40f49939110e4618670f188 = L.popup({"maxWidth": 1400});
+
+        
+            var html_0e1d0daf5ee14ecf9fb6ce93e21d1d2b = $(`<div id="html_0e1d0daf5ee14ecf9fb6ce93e21d1d2b" style="width: 100.0%; height: 100.0%;">Name: Fortis Malar Hospital	  ||	Address: No. 52, 1st Main Road, Gandhi Nagar, Adyar, Chennai - 600 020	||	Phone Number: +044-42892222||	Hospital Type: Private</div>`)[0];
+            popup_c4564c18c40f49939110e4618670f188.setContent(html_0e1d0daf5ee14ecf9fb6ce93e21d1d2b);
+        
+
+        circle_marker_5c97a76f31f54af5ae01713b7a641fab.bindPopup(popup_c4564c18c40f49939110e4618670f188)
+        ;
+
+        
+    
+    
+            var circle_marker_488cc2b2ca6c4ddc823823d1d61cda3d = L.circleMarker(
+                [13.08156005250363, 80.27467321343198],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_c25e12044c4547ec85a5ab768bd5ef9d = L.popup({"maxWidth": 1140});
+
+        
+            var html_ddc7c2393b414991a00fb6235f0bbd47 = $(`<div id="html_ddc7c2393b414991a00fb6235f0bbd47" style="width: 100.0%; height: 100.0%;">Name: Government General Hospital	  ||	Address: Poonamallee High Road, Park Town, Chennai-600003	||	Phone Number: +044-25305000||	Hospital Type: Govt</div>`)[0];
+            popup_c25e12044c4547ec85a5ab768bd5ef9d.setContent(html_ddc7c2393b414991a00fb6235f0bbd47);
+        
+
+        circle_marker_488cc2b2ca6c4ddc823823d1d61cda3d.bindPopup(popup_c25e12044c4547ec85a5ab768bd5ef9d)
+        ;
+
+        
+    
+    
+            var circle_marker_b0814f2a359e46169931fe99e8827232 = L.circleMarker(
+                [13.08365207638538, 80.24035289821299],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_71bbf0ee862e42e1846d044c6ffcc599 = L.popup({"maxWidth": 700});
+
+        
+            var html_d14e6aa1260442dc996183fd3a8282b9 = $(`<div id="html_d14e6aa1260442dc996183fd3a8282b9" style="width: 100.0%; height: 100.0%;">Name: Government Kilpauk Hospital	  ||	Address: Kilpauk, Chennai - 600 010	||	Phone Number: +044-28364951||	Hospital Type: Govt</div>`)[0];
+            popup_71bbf0ee862e42e1846d044c6ffcc599.setContent(html_d14e6aa1260442dc996183fd3a8282b9);
+        
+
+        circle_marker_b0814f2a359e46169931fe99e8827232.bindPopup(popup_71bbf0ee862e42e1846d044c6ffcc599)
+        ;
+
+        
+    
+    
+            var circle_marker_5cf20519a9c34e2a821324b7623d18d6 = L.circleMarker(
+                [12.93733000000003, 80.12855000000008],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_f8276e7d9f384da7b0c797af2c08d41a = L.popup({"maxWidth": 840});
+
+        
+            var html_ff9d5b6c59c745f7bd19addbf9fb29e0 = $(`<div id="html_ff9d5b6c59c745f7bd19addbf9fb29e0" style="width: 100.0%; height: 100.0%;">Name: Govt Hospital for Thoracic Medicine	  ||	Address: Tambaram Sanatorium, Chennai - 47	||	Phone Number: +044-22418450||	Hospital Type: Govt</div>`)[0];
+            popup_f8276e7d9f384da7b0c797af2c08d41a.setContent(html_ff9d5b6c59c745f7bd19addbf9fb29e0);
+        
+
+        circle_marker_5cf20519a9c34e2a821324b7623d18d6.bindPopup(popup_f8276e7d9f384da7b0c797af2c08d41a)
+        ;
+
+        
+    
+    
+            var circle_marker_25af439431a7481fa2fb11c53eaa2966 = L.circleMarker(
+                [13.06409530807189, 80.27605376735458],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_1bf639b48f764cd28dbcbf04ce140fbe = L.popup({"maxWidth": 760});
+
+        
+            var html_71cb1e8ef79f45b98f63e33d37a09a6e = $(`<div id="html_71cb1e8ef79f45b98f63e33d37a09a6e" style="width: 100.0%; height: 100.0%;">Name: Govt Kasturba Hospital for Women	  ||	Address: Triplicane, Chennai - 600 005	||	Phone Number: +044-28545449||	Hospital Type: Govt</div>`)[0];
+            popup_1bf639b48f764cd28dbcbf04ce140fbe.setContent(html_71cb1e8ef79f45b98f63e33d37a09a6e);
+        
+
+        circle_marker_25af439431a7481fa2fb11c53eaa2966.bindPopup(popup_1bf639b48f764cd28dbcbf04ce140fbe)
+        ;
+
+        
+    
+    
+            var circle_marker_2616c89dcc2a4c9abf4c5aa37da3757d = L.circleMarker(
+                [13.08059500000007, 80.27082500000006],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_6b7815a50dfc4e43bf18928923702615 = L.popup({"maxWidth": 1000});
+
+        
+            var html_b645738bdaa842908f74923729f77d7e = $(`<div id="html_b645738bdaa842908f74923729f77d7e" style="width: 100.0%; height: 100.0%;">Name: Govt Multi Super Speciality Hospital	  ||	Address: Omandurar Govt. Estate, Chennai - 600 002	||	Phone Number: +044-25666000||	Hospital Type: Govt</div>`)[0];
+            popup_6b7815a50dfc4e43bf18928923702615.setContent(html_b645738bdaa842908f74923729f77d7e);
+        
+
+        circle_marker_2616c89dcc2a4c9abf4c5aa37da3757d.bindPopup(popup_6b7815a50dfc4e43bf18928923702615)
+        ;
+
+        
+    
+    
+            var circle_marker_3eacbb700c034c03b0f71fc5e8fbf0cf = L.circleMarker(
+                [13.05410001569153, 80.26412999269746],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_12aa7b19de9949068bfadea20fe839f2 = L.popup({"maxWidth": 980});
+
+        
+            var html_114fc48c540a411faefa3d26e9177be9 = $(`<div id="html_114fc48c540a411faefa3d26e9177be9" style="width: 100.0%; height: 100.0%;">Name: Govt Royapettah Hospital	  ||	Address: No. 1, West Cott Road, Chennai - 600 014	||	Phone Number: +044-28483051||	Hospital Type: Govt</div>`)[0];
+            popup_12aa7b19de9949068bfadea20fe839f2.setContent(html_114fc48c540a411faefa3d26e9177be9);
+        
+
+        circle_marker_3eacbb700c034c03b0f71fc5e8fbf0cf.bindPopup(popup_12aa7b19de9949068bfadea20fe839f2)
+        ;
+
+        
+    
+    
+            var circle_marker_7e32c1071ee24bf981275dc702b0d34c = L.circleMarker(
+                [13.10531969261897, 80.28203974742905],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_626fc035237d434ba982edf065ed44a3 = L.popup({"maxWidth": 820});
+
+        
+            var html_cdc1bcaa4874403faeaf3a41c12805a0 = $(`<div id="html_cdc1bcaa4874403faeaf3a41c12805a0" style="width: 100.0%; height: 100.0%;">Name: Govt Stanley Hospital	  ||	Address: Old Jail Road, Chennai - 600 001	||	Phone Number: +044-25281347||	Hospital Type: Govt</div>`)[0];
+            popup_626fc035237d434ba982edf065ed44a3.setContent(html_cdc1bcaa4874403faeaf3a41c12805a0);
+        
+
+        circle_marker_7e32c1071ee24bf981275dc702b0d34c.bindPopup(popup_626fc035237d434ba982edf065ed44a3)
+        ;
+
+        
+    
+    
+            var circle_marker_4f488147f90b44b8adbae61cebbc8aa3 = L.circleMarker(
+                [13.07360351948049, 80.25660404930572],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_2ae4c6d92a33463a9edf362fd61fca88 = L.popup({"maxWidth": 920});
+
+        
+            var html_7ab61fd14ab2419b9ca109c6802b2d68 = $(`<div id="html_7ab61fd14ab2419b9ca109c6802b2d68" style="width: 100.0%; height: 100.0%;">Name: Institute of Child Health and Hospital for Children	  ||	Address: Halls Road, Egmore, Chennai - 600 008	||	Phone Number: +044-28191135||	Hospital Type: Govt</div>`)[0];
+            popup_2ae4c6d92a33463a9edf362fd61fca88.setContent(html_7ab61fd14ab2419b9ca109c6802b2d68);
+        
+
+        circle_marker_4f488147f90b44b8adbae61cebbc8aa3.bindPopup(popup_2ae4c6d92a33463a9edf362fd61fca88)
+        ;
+
+        
+    
+    
+            var circle_marker_2ae4d5441bc2404f995e3d7b49b840b8 = L.circleMarker(
+                [13.08505550579786, 80.16162992593708],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_81376145d1df40ea8f5cdf4f0c8525a3 = L.popup({"maxWidth": 1320});
+
+        
+            var html_96db3a63bc1045c59d288ba9f05c736f = $(`<div id="html_96db3a63bc1045c59d288ba9f05c736f" style="width: 100.0%; height: 100.0%;">Name: Madras Medical Mission Hospital	  ||	Address: 4-A, Dr. J. Jayalalitha Nagar, Mogappair, Chennai 600 037	||	Phone Number: +044-26565961||	Hospital Type: Private</div>`)[0];
+            popup_81376145d1df40ea8f5cdf4f0c8525a3.setContent(html_96db3a63bc1045c59d288ba9f05c736f);
+        
+
+        circle_marker_2ae4d5441bc2404f995e3d7b49b840b8.bindPopup(popup_81376145d1df40ea8f5cdf4f0c8525a3)
+        ;
+
+        
+    
+    
+            var circle_marker_2accb98556cc456f955d818a30c3aa7f = L.circleMarker(
+                [13.02065001941317, 80.18494003460972],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_ef7c0f5c24ee4f53a83a8127be354d9f = L.popup({"maxWidth": 1400});
+
+        
+            var html_8aa1d81af86b4bfb9ff35e6664b99293 = $(`<div id="html_8aa1d81af86b4bfb9ff35e6664b99293" style="width: 100.0%; height: 100.0%;">Name: MIOT Hospital	  ||	Address: 4/112, Mount Poonamallee Road, Manappakkam, Chennai - 600 089	||	Phone Number: +044-22492288||	Hospital Type: Private</div>`)[0];
+            popup_ef7c0f5c24ee4f53a83a8127be354d9f.setContent(html_8aa1d81af86b4bfb9ff35e6664b99293);
+        
+
+        circle_marker_2accb98556cc456f955d818a30c3aa7f.bindPopup(popup_ef7c0f5c24ee4f53a83a8127be354d9f)
+        ;
+
+        
+    
+    
+            var circle_marker_10771af90ed745a7a7ff8f8ce701051b = L.circleMarker(
+                [13.10836604697736, 80.28912335156629],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_f6cc765b357e4bae9d2e54e45f40bf65 = L.popup({"maxWidth": 800});
+
+        
+            var html_b791637ec9b94f0fae19cec3d8aed19d = $(`<div id="html_b791637ec9b94f0fae19cec3d8aed19d" style="width: 100.0%; height: 100.0%;">Name: R.S.R.M. Lying – In Hospital	  ||	Address: Cemetry Road, Chennai - 600 013	||	Phone Number: +044-25902961||	Hospital Type: Govt</div>`)[0];
+            popup_f6cc765b357e4bae9d2e54e45f40bf65.setContent(html_b791637ec9b94f0fae19cec3d8aed19d);
+        
+
+        circle_marker_10771af90ed745a7a7ff8f8ce701051b.bindPopup(popup_f6cc765b357e4bae9d2e54e45f40bf65)
+        ;
+
+        
+    
+    
+            var circle_marker_0f66f26113ca4045a21c112b92984bfb = L.circleMarker(
+                [13.06748000582097, 80.2500799951377],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_014129bab50346d7a10a22add2e3d7fe = L.popup({"maxWidth": 1240});
+
+        
+            var html_32a1497553e34ca08f4ea12865564db9 = $(`<div id="html_32a1497553e34ca08f4ea12865564db9" style="width: 100.0%; height: 100.0%;">Name: Sankara Nethralaya	  ||	Address: No. 18, College Road, Nungambakkam, Chennai - 600 006	||	Phone Number: +044-28271616||	Hospital Type: Private</div>`)[0];
+            popup_014129bab50346d7a10a22add2e3d7fe.setContent(html_32a1497553e34ca08f4ea12865564db9);
+        
+
+        circle_marker_0f66f26113ca4045a21c112b92984bfb.bindPopup(popup_014129bab50346d7a10a22add2e3d7fe)
+        ;
+
+        
+    
+    
+            var circle_marker_81a760c26ebf4e11886d2cc39f135d53 = L.circleMarker(
+                [13.05152000000004, 80.22436000000005],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_5513fdf707144cdda548d53f1fd49f3e = L.popup({"maxWidth": 1300});
+
+        
+            var html_71a87bf0f50641bea8ed4fdec0498d44 = $(`<div id="html_71a87bf0f50641bea8ed4fdec0498d44" style="width: 100.0%; height: 100.0%;">Name: Sooriya Hospital	  ||	Address: Kodambakkam Sriperumbudur Road, Vadapalani, Chennai - 26	||	Phone Number: +044-23761750||	Hospital Type: Private</div>`)[0];
+            popup_5513fdf707144cdda548d53f1fd49f3e.setContent(html_71a87bf0f50641bea8ed4fdec0498d44);
+        
+
+        circle_marker_81a760c26ebf4e11886d2cc39f135d53.bindPopup(popup_5513fdf707144cdda548d53f1fd49f3e)
+        ;
+
+        
+    
+    
+            var circle_marker_37ed56b155464fb89fdad2e6b4dec0d3 = L.circleMarker(
+                [13.02676053100741, 80.1545158944587],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_b4c683ea06f749e2be32849490f60b83 = L.popup({"maxWidth": 1340});
+
+        
+            var html_450eab20ced040ac94aed579e5576601 = $(`<div id="html_450eab20ced040ac94aed579e5576601" style="width: 100.0%; height: 100.0%;">Name: Sri Ramachandra Medical College and Research Centre	  ||	Address: No.1, Ramachandra Nagar, Porur, Chennai, Tamil Nadu 600116	||	Phone Number: +044-24768402||	Hospital Type: Private</div>`)[0];
+            popup_b4c683ea06f749e2be32849490f60b83.setContent(html_450eab20ced040ac94aed579e5576601);
+        
+
+        circle_marker_37ed56b155464fb89fdad2e6b4dec0d3.bindPopup(popup_b4c683ea06f749e2be32849490f60b83)
+        ;
+
+        
+    
+    
+            var circle_marker_612ffdfb3c0740e0a9d79646557ea28c = L.circleMarker(
+                [13.03934608315702, 80.26177883010948],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_12ceb7702e994324bf2eb30f1550012b = L.popup({"maxWidth": 920});
+
+        
+            var html_ec4c8fb1a56140b09836031a26b2a653 = $(`<div id="html_ec4c8fb1a56140b09836031a26b2a653" style="width: 100.0%; height: 100.0%;">Name: St. Isabella Hospital	  ||	Address: Oliver Road, Mylapore Chennai 600 004	||	Phone Number: +044-24991081||	Hospital Type: Private</div>`)[0];
+            popup_12ceb7702e994324bf2eb30f1550012b.setContent(html_ec4c8fb1a56140b09836031a26b2a653);
+        
+
+        circle_marker_612ffdfb3c0740e0a9d79646557ea28c.bindPopup(popup_12ceb7702e994324bf2eb30f1550012b)
+        ;
+
+        
+    
+    
+            var circle_marker_6634075ee9234de1ab3eb036f5075b25 = L.circleMarker(
+                [13.1008832765368, 80.2111525654707],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_0788db0fa6be4451856e2319cecc08de = L.popup({"maxWidth": 1380});
+
+        
+            var html_765e585fa5f6488d91bc80addc0a26f7 = $(`<div id="html_765e585fa5f6488d91bc80addc0a26f7" style="width: 100.0%; height: 100.0%;">Name: Sundaram Medical Foundation	  ||	Address: 9C, Santhi Colony, 4th Avenue, Anna Nagar, Chennai - 600 040	||	Phone Number: +044-26268844||	Hospital Type: Private</div>`)[0];
+            popup_0788db0fa6be4451856e2319cecc08de.setContent(html_765e585fa5f6488d91bc80addc0a26f7);
+        
+
+        circle_marker_6634075ee9234de1ab3eb036f5075b25.bindPopup(popup_0788db0fa6be4451856e2319cecc08de)
+        ;
+
+        
+    
+    
+            var circle_marker_c92bab3f1f4142af8c4c5aeb2465378c = L.circleMarker(
+                [13.13611240019788, 80.25060555122435],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c81ad9a021744202945091f1efdadc13);
+        
+    
+        var popup_b3653f9e95d64465aed8298ce64f2664 = L.popup({"maxWidth": 1220});
+
+        
+            var html_6493764761cb49728592180fe98ca291 = $(`<div id="html_6493764761cb49728592180fe98ca291" style="width: 100.0%; height: 100.0%;">Name: Vijaya Hospital	  ||	Address: 175 and 180 NSK Salai, Vadapalani, Chennai - 600 026	||	Phone Number: +044-24801642||	Hospital Type: Private</div>`)[0];
+            popup_b3653f9e95d64465aed8298ce64f2664.setContent(html_6493764761cb49728592180fe98ca291);
+        
+
+        circle_marker_c92bab3f1f4142af8c4c5aeb2465378c.bindPopup(popup_b3653f9e95d64465aed8298ce64f2664)
+        ;
+
+        
+    
+    
+            var layer_control_1ddf7115ef774d66b75637f767519521 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_099eec129d1b482797df8f693ff7709e,
+                },
+                overlays :  {
+                    "Marker" : feature_group_c81ad9a021744202945091f1efdadc13,
+                },
+            };
+            L.control.layers(
+                layer_control_1ddf7115ef774d66b75637f767519521.base_layers,
+                layer_control_1ddf7115ef774d66b75637f767519521.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_698b947b2f4f4751a540fee8a4c908c2);
+        
+</script>
